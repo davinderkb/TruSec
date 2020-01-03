@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FFFFFF</color>
+    <color name="colorPrimaryDark">#FFFFFF</color>
+    <color name="colorAccent">#B00020</color>
+    <color name="white">#FFFFFF</color>
+    <color name="signUpColor">#066e8a</color>
+    <color name="declineColorOld">#F44336</color>
+    <color name="declineColor">#EA4335</color>
+    <color name="pendingColor">#FFBA01</color>
+    <color name="acceptColorOld">#4CAF50</color>
+    <color name="acceptColor">#34A853</color>
+    <color name="grey">#D1CCCC</color>
+    <color name="rosterIconTint">#9E9212</color>
+    <color name="silverGrey">#DFEDFA</color>
+    <color name="skyblueOld">#07b9f4</color>
+    <color name="skyblue">#4285F4</color>
+    <color name="blueGrey">#B0C3DB</color>
+    <color name="blueRoster">#A1C0E6</color>
+    <color name="navyBlue">#00838F</color>
+    <color name="checkInColor">#4285F4</color>
+    <color name="googleBlue">#4285F4</color>
+</resources>
+

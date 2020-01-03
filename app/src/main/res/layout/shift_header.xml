@@ -1,0 +1,109 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+    android:layout_marginTop="8dp"
+
+    android:background="@android:color/transparent"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        card_view:cardBackgroundColor="@color/googleBlue"
+        card_view:cardCornerRadius="30dp"
+        card_view:cardElevation="5dp"
+        card_view:cardMaxElevation="5dp"
+        card_view:cardPreventCornerOverlap="false"
+        card_view:cardUseCompatPadding="true">
+
+        <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="2dp"
+            card_view:cardBackgroundColor="@color/white"
+            card_view:cardCornerRadius="30dp"
+            card_view:cardElevation="5dp"
+            card_view:cardMaxElevation="5dp"
+            card_view:cardPreventCornerOverlap="false"
+            card_view:cardUseCompatPadding="false">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                android:layout_gravity="center"
+                android:background="@android:color/transparent"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:weightSum="12">
+
+                <ImageView
+                    android:id="@+id/navigateWeekBack"
+                    android:layout_width="0dp"
+                    android:layout_height="14dp"
+                    android:layout_gravity="left|center"
+                    android:layout_marginLeft="8dp"
+                    android:layout_weight="1"
+                    android:background="?actionBarItemBackground"
+                    android:src="@drawable/wk_back_2"
+                    android:tint="@color/googleBlue" />
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="10"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+
+                    <ImageView
+                        android:id="@+id/weekIcon"
+                        android:layout_width="40dp"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:background="?actionBarItemBackground"
+                        android:paddingRight="4dp"
+                        android:src="@drawable/wk_icon"
+                        android:tint="@color/googleBlue" />
+
+                    <TextView
+                        android:id="@+id/shiftTitle"
+                        android:layout_width="wrap_content"
+
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="0dp"
+                        android:autoSizeMaxTextSize="14sp"
+                        android:autoSizeMinTextSize="10sp"
+                        android:autoSizeStepGranularity="2sp"
+                        android:autoSizeTextType="uniform"
+                        android:autoText="true"
+                        android:background="@drawable/rectangle"
+                        android:gravity="center"
+                        android:paddingTop="2dp"
+                        android:paddingBottom="2dp"
+                        android:singleLine="true"
+                        android:textStyle="bold"
+                        app:autoSizeMaxTextSize="16sp"
+                        app:autoSizeMinTextSize="10sp"
+                        app:autoSizeStepGranularity="2sp"
+                        app:autoSizeTextType="uniform" />
+                </LinearLayout>
+
+                <ImageView
+                    android:id="@+id/navigateWeekNext"
+                    android:layout_width="0dp"
+                    android:layout_height="14dp"
+                    android:layout_gravity="right|center"
+                    android:layout_marginRight="8dp"
+                    android:layout_weight="1"
+                    android:background="?actionBarItemBackground"
+                    android:src="@drawable/wk_next_2"
+                    android:tint="@color/googleBlue" />
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+    </android.support.v7.widget.CardView>
+</LinearLayout>
